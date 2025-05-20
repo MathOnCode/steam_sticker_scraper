@@ -1,11 +1,15 @@
+import os
+
 import requests
 import json
-import os
-from os import getenv
 from datetime import datetime
+
+from dotenv import load_dotenv
 from fpdf import FPDF
 import time
 import mensageiro as m
+
+load_dotenv()
 
 # CONFIGURAÇÃO
 STICKERS = [
