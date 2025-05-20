@@ -7,7 +7,7 @@ on:
   workflow_dispatch:  # permite rodar manualmente também
 
 env:
-  ACTIONS_STEP_DEBUG: true  # ativa logs de debug para todos os passos
+  ACTIONS_STEP_DEBUG: true  # ativa logs detalhados
 
 jobs:
   run-script:
@@ -18,10 +18,10 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v3
         with:
-          python-version: '3.10.0'  # versão específica para evitar problemas
+          python-version: '3.10.0'
 
       - name: Install dependencies
-        run: pip install requests fpdf
+        run: pip install requests fpdf python-dotenv
 
       - name: Run script
         env:
