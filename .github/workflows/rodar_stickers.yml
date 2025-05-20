@@ -2,8 +2,7 @@ name: Rodar script de preços
 
 on:
   schedule:
-    - cron: '0 10 * * *'  # 07:00 BRT
-    - cron: '0 22 * * *'  # 19:00 BRT
+    - cron: '0 12 * * *'  # 09:00 BRT
   workflow_dispatch:
 
 jobs:
