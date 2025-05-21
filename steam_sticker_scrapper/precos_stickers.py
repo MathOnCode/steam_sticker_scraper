@@ -56,6 +56,7 @@ STICKERS = [
     "Sticker | FURIA (Glitter) | Rio 2022",
     "Sticker | gla1ve (Glitter) | Copenhagen 2024",
     "Sticker | Goofy (Glitter) | Copenhagen 2024",
+    "Sticker | Goofy | Copenhagen 2024",
     "Sticker | Grim (Glitter) | Copenhagen 2024",
     "Sticker | hallzerk (Glitter) | Copenhagen 2024",
     "Sticker | Heroic (Glitter) | Copenhagen 2024",
@@ -146,7 +147,6 @@ STICKERS = [
     "Sticker | ZywOo (Glitter) | Paris 2023",
     "Sticker | ZywOo (Glitter) | Rio 2022",
     "Sticker | ZywOo (Holo) | Copenhagen 2024",
-    "Sticker | ZywOo (Glitter) | Rio 2022",
     "Sticker | zont1x (Glitter) | Copenhagen 2024",
     "Sticker | zont1x (Holo) | Champions Shanghai 2024"
 ]
@@ -165,21 +165,23 @@ def obter_preco(nome_item):
         "appid": 730,
         "market_hash_name": nome_item
     }
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
-    }
-    r = requests.get(url, params=params, headers=headers)
-    if r.status_code == 429:
-        print("Muitas requisições. Aguardando para tentar novamente...")
-        time.sleep(600)
-        return obter_preco(nome_item)
-    if r.status_code != 200:
-        return None
-    data = r.json()
-    preco_str = data.get("lowest_price")
-    if not preco_str:
-        return None
-    return float(preco_str.replace("R$ ", "").replace(".", "").replace(",", "."))
+
+    while True:
+        r = requests.get(url, params=params)
+        if r.status_code == 429:
+            print("Muitas requisições. Aguardando 1 minuto para tentar novamente...")
+            time.sleep(60)  # espera 60 segundos antes de tentar de novo
+            continue
+        elif r.status_code != 200:
+            return None
+
+        data = r.json()
+        preco_str = data.get("lowest_price")
+        if not preco_str:
+            return None
+        # Remove símbolos e formata para float
+        preco = float(preco_str.replace("R$ ", "").replace(".", "").replace(",", "."))
+        return preco
 
 
 # Carrega histórico do JSON
@@ -212,9 +214,9 @@ def gerar_pdf(dados):
             if chave.startswith("var_") and item[chave] is not None:
                 colunas_validas.add(chave)
 
-    colunas_ordenadas = sorted(colunas_validas)  # Ajuste conforme seu critério
+    colunas_ordenadas = sorted(colunas_validas)
 
-    # Reordena os dados pelo maior valor de variação absoluta (ignora None)
+    # Ordena os dados pelo maior valor absoluto de variação
     def max_variacao(item):
         variacoes_validas = [abs(item[k]) for k in colunas_ordenadas if item[k] is not None]
         return max(variacoes_validas, default=0)
@@ -237,9 +239,27 @@ def gerar_pdf(dados):
 
     pdf.set_font("Arial", "", 8)
     for item in dados_ordenados:
+        # Coluna item (nome do sticker)
         pdf.cell(col_widths[0], 10, item["item"][:70], border=1)
-        pdf.cell(col_widths[1], 10, f'R$ {item["preco_atual"]:.2f}', border=1, align="C")
 
+        # Define cor de fundo da célula preço conforme valor
+        preco = item["preco_atual"]
+        if preco > 30:
+            pdf.set_fill_color(255, 215, 0)  # amarelo dourado
+            fill = True
+        elif preco > 10:
+            pdf.set_fill_color(200, 255, 200)  # verde claro
+            fill = True
+        elif preco > 5:
+            pdf.set_fill_color(173, 216, 230)  # azul claro
+            fill = True
+        else:
+            fill = False
+
+        # Célula do preço atual com cor de fundo
+        pdf.cell(col_widths[1], 10, f'R$ {preco:.2f}', border=1, align="C", fill=fill)
+
+        # Colunas de variações percentuais
         for key in colunas_ordenadas:
             var = item[key]
             if var is None:
@@ -255,6 +275,7 @@ def gerar_pdf(dados):
                 pdf.set_text_color(0, 0, 0)
                 txt = "0.00%"
             pdf.cell(20, 10, txt, border=1, align="C")
+
         pdf.set_text_color(0, 0, 0)
         pdf.ln()
 
