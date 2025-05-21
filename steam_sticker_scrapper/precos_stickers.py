@@ -55,8 +55,8 @@ STICKERS = [
     "Sticker | FURIA (Glitter) | Antwerp 2022",
     "Sticker | FURIA (Glitter) | Rio 2022",
     "Sticker | gla1ve (Glitter) | Copenhagen 2024",
-    "Sticker | Goofy (Glitter) | Copenhagen 2024",
     "Sticker | Goofy | Copenhagen 2024",
+    "Sticker | Goofy (Glitter) | Copenhagen 2024",
     "Sticker | Grim (Glitter) | Copenhagen 2024",
     "Sticker | hallzerk (Glitter) | Copenhagen 2024",
     "Sticker | Heroic (Glitter) | Copenhagen 2024",
@@ -242,19 +242,28 @@ def gerar_pdf(dados):
         # Coluna item (nome do sticker)
         pdf.cell(col_widths[0], 10, item["item"][:70], border=1)
 
-        # Define cor de fundo da célula preço conforme valor
+        # Define cor de fundo da célula de preço conforme o valor (tons pastéis)
         preco = item["preco_atual"]
-        if preco > 30:
-            pdf.set_fill_color(255, 215, 0)  # amarelo dourado
+        fill = False
+
+        if preco > 100:
+            pdf.set_fill_color(255, 179, 186)  # vermelho pastel
             fill = True
-        elif preco > 10:
-            pdf.set_fill_color(200, 255, 200)  # verde claro
+        elif preco > 50:
+            pdf.set_fill_color(204, 153, 255)  # roxo pastel
+            fill = True
+        elif preco > 30:
+            pdf.set_fill_color(255, 204, 153)  # laranja pastel
+            fill = True
+        elif preco > 15:
+            pdf.set_fill_color(255, 255, 204)  # amarelo pastel
             fill = True
         elif preco > 5:
-            pdf.set_fill_color(173, 216, 230)  # azul claro
+            pdf.set_fill_color(204, 255, 204)  # verde pastel
             fill = True
-        else:
-            fill = False
+        elif preco > 1:
+            pdf.set_fill_color(204, 229, 255)  # azul pastel
+            fill = True
 
         # Célula do preço atual com cor de fundo
         pdf.cell(col_widths[1], 10, f'R$ {preco:.2f}', border=1, align="C", fill=fill)
@@ -288,7 +297,7 @@ def main():
 
     for sticker in STICKERS:
         preco_atual = obter_preco(sticker)
-        time.sleep(2)
+        time.sleep(1.5)
         print(sticker)
 
         if preco_atual is None:

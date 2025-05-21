@@ -2,5 +2,3 @@
 .idea
 __pycache__/
 *.pyc
-steam_sticker_scrapper/generated_files/precos_stickers.pdf
-steam_sticker_scrapper/utils/historico_stickers.json
