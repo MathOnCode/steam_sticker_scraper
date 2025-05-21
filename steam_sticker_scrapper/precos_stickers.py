@@ -255,14 +255,17 @@ def gerar_pdf(dados):
         elif preco > 30:
             pdf.set_fill_color(255, 204, 153)  # laranja pastel
             fill = True
-        elif preco > 15:
+        elif preco > 20:
             pdf.set_fill_color(255, 255, 204)  # amarelo pastel
             fill = True
-        elif preco > 5:
+        elif preco > 10:
             pdf.set_fill_color(204, 255, 204)  # verde pastel
             fill = True
-        elif preco > 1:
+        elif preco > 5:
             pdf.set_fill_color(204, 229, 255)  # azul pastel
+            fill = True
+        elif preco > 1:
+            pdf.set_fill_color(224, 224, 224)  # cinza pastel
             fill = True
 
         # Célula do preço atual com cor de fundo
