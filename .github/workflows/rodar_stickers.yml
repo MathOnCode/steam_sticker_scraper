@@ -29,12 +29,13 @@ jobs:
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
           EMAIL_HOST: ${{ secrets.EMAIL_HOST }}
           EMAIL_PORT: ${{ secrets.EMAIL_PORT }}
-        run: python steam_sticker_scrapper/precos_stickers.py
+        working-directory: ./steam_sticker_scrapper
+        run: python precos_stickers.py
 
       - name: Commit de histórico e PDF
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add steam_sticker_scrapper/historico_stickers.json steam_sticker_scrapper/precos_stickers.pdf
+          git add steam_sticker_scrapper/utils/historico_stickers.json steam_sticker_scrapper/generated_files/precos_stickers.pdf
           git commit -m "Atualização automática [skip ci]" || echo "Nada para commitar"
           git push
