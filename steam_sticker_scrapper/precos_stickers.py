@@ -172,6 +172,10 @@ STICKERS = [
     "Charm | Baby's AK",
     "Charm | Pocket AWP",
     "Charm | Lil' Cap Gun",
+    "Shadow Case",
+    "Gamma Case",
+    "Gamma 2 Case",
+    "Spectrum 2 Case",
 ]
 
 agora = datetime.now().strftime("%d/%m/%Y %H:%M")
