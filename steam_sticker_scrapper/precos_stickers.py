@@ -14,21 +14,21 @@ load_dotenv()
 # CONFIGURAÇÃO
 STICKERS = [
     "Sticker | 910 (Glitter) | Copenhagen 2024",
+    "Sticker | 910 (Holo) | Copenhagen 2024",
     "Sticker | Aleksib (Glitter) | Copenhagen 2024",
-    "Sticker | ANNIHILATION (Glitter) | Paris 2023",
     "Sticker | apEX (Glitter) | Copenhagen 2024",
     "Sticker | arT | Copenhagen 2024",
     "Sticker | arT (Glitter) | Copenhagen 2024",
     "Sticker | bLitz (Glitter) | Copenhagen 2024",
     "Sticker | Brollan (Glitter) | Copenhagen 2024",
     "Sticker | coldzera (Glitter) | Copenhagen 2024",
+    "Sticker | coldzera (Glitter) | Rio 2022",
     "Sticker | coldzera (Holo) | Copenhagen 2024",
     "Sticker | Complexity Gaming (Glitter) | Copenhagen 2024",
     "Sticker | dav1d (Glitter) | Antwerp 2022",
     "Sticker | decenty (Glitter) | Copenhagen 2024",
     "Sticker | decenty (Gold) | Copenhagen 2024",
     "Sticker | decenty (Holo) | Copenhagen 2024",
-    "Sticker | device | Stockholm 2021",
     "Sticker | degster (Glitter) | Antwerp 2022",
     "Sticker | degster (Glitter) | Shanghai 2024",
     "Sticker | donk | Copenhagen 2024",
@@ -55,6 +55,7 @@ STICKERS = [
     "Sticker | FURIA (Glitter) | Antwerp 2022",
     "Sticker | FURIA (Glitter) | Rio 2022",
     "Sticker | gla1ve (Glitter) | Copenhagen 2024",
+    "Sticker | Goofy | Copenhagen 2024",
     "Sticker | Goofy (Glitter) | Copenhagen 2024",
     "Sticker | Goofy (Holo) | Paris 2023",
     "Sticker | Grim (Glitter) | Copenhagen 2024",
@@ -120,7 +121,6 @@ STICKERS = [
     "Sticker | skullz (Holo) | Paris 2023",
     "Sticker | Senzu (Glitter) | Copenhagen 2024",
     "Sticker | Senzu (Holo) | Copenhagen 2024",
-    "Sticker | Senzu | Shanghai 2024",
     "Sticker | snow | Shanghai 2024",
     "Sticker | Spinx (Holo) | Copenhagen 2024",
     "Sticker | Starry (Glitter) | Copenhagen 2024",
@@ -154,6 +154,7 @@ STICKERS = [
     "Sticker | ZywOo (Glitter) | Paris 2023",
     "Sticker | ZywOo (Glitter) | Rio 2022",
     "Sticker | ZywOo (Holo) | Copenhagen 2024",
+    "Sticker | zont1x (Glitter) | Copenhagen 2024",
     "Sticker zont1x (Holo) | Champions Shanghai 2024",
     "Sticker | MOUZ (Glitter) | Copenhagen 2024",
     "Sticker | Vitality (Glitter) | Copenhagen 2024",
@@ -179,6 +180,7 @@ agora = datetime.now().strftime("%d/%m/%Y %H:%M")
 
 HISTORICO_JSON = "utils/historico_stickers.json"
 PDF_SAIDA = "generated_files/precos_stickers.pdf"
+PDF_POR_PRECO_SAIDA = "generated_files/precos_stickers_ordenado_por_preco.pdf"
 
 # Função para pegar preço atual
 def obter_preco(nome_item):
@@ -193,8 +195,8 @@ def obter_preco(nome_item):
     while True:
         r = requests.get(url, params=params)
         if r.status_code == 429:
-            print("Muitas requisições. Aguardando 1 minuto para tentar novamente...")
-            time.sleep(60)  # espera 60 segundos antes de tentar de novo
+            print("Muitas requisições. Aguardando 30 segundos para tentar novamente...")
+            time.sleep(30)  # espera 30 segundos antes de tentar de novo
             continue
         elif r.status_code != 200:
             return None
@@ -317,6 +319,59 @@ def gerar_pdf(dados):
 
     pdf.output(PDF_SAIDA)
 
+def gerar_pdf_por_preco(dados):
+    dados_ordenados = sorted(dados, key=lambda x: x["preco_atual"], reverse=True)
+
+    pdf = FPDF()
+    pdf.add_page()
+    pdf.set_font("Arial", "B", 14)
+    pdf.cell(0, 10, "Relatório de Preços (Maior para Menor)", ln=True, align="C")
+    pdf.ln(10)
+
+    headers = ["Item", "Preço Atual"]
+    col_widths = [120, 40]
+
+    pdf.set_font("Arial", "B", 10)
+    for i, h in enumerate(headers):
+        pdf.cell(col_widths[i], 10, h, border=1, align="C")
+    pdf.ln()
+
+    pdf.set_font("Arial", "", 8)
+    for item in dados_ordenados:
+        pdf.cell(col_widths[0], 10, item["item"][:60], border=1)
+
+        # Aplica cor de fundo conforme o preço
+        preco = item["preco_atual"]
+        fill = False
+        if preco > 100:
+            pdf.set_fill_color(255, 179, 186)  # vermelho pastel
+            fill = True
+        elif preco > 50:
+            pdf.set_fill_color(204, 153, 255)  # roxo pastel
+            fill = True
+        elif preco > 30:
+            pdf.set_fill_color(255, 204, 153)  # laranja pastel
+            fill = True
+        elif preco > 20:
+            pdf.set_fill_color(255, 255, 204)  # amarelo pastel
+            fill = True
+        elif preco > 10:
+            pdf.set_fill_color(204, 255, 204)  # verde pastel
+            fill = True
+        elif preco > 5:
+            pdf.set_fill_color(204, 229, 255)  # azul pastel
+            fill = True
+        elif preco > 1:
+            pdf.set_fill_color(224, 224, 224)  # cinza pastel
+            fill = True
+
+        pdf.cell(col_widths[1], 10, f'R$ {preco:.2f}', border=1, align="C", fill=fill)
+        pdf.ln()
+
+    pdf.output(PDF_POR_PRECO_SAIDA)
+
+
+
 def main():
     hoje = datetime.today().strftime("%Y-%m-%d")
     historico = carregar_historico()
@@ -356,13 +411,15 @@ def main():
 
     salvar_historico(historico)
     gerar_pdf(resultado)
+    gerar_pdf_por_preco(resultado)
     print("PDF gerado:", PDF_SAIDA)
+    print("PDF gerado:", PDF_POR_PRECO_SAIDA)
 
-    m.enviar_email_com_anexo(
-        destinatario = os.getenv("EMAIL_RECEPTOR"),
-        assunto = f"Relatório de Preços - Steam Stickers ({agora})",
-        corpo = "Segue em anexo o relatório atualizado dos preços dos stickers Steam.",
-        arquivo_caminho=PDF_SAIDA
+    m.enviar_email_com_anexos(
+        destinatario=os.getenv("EMAIL_RECEPTOR"),
+        assunto=f"Relatório de Preços - Steam Stickers ({agora})",
+        corpo="Segue em anexo o relatório atualizado dos preços dos stickers Steam.",
+        lista_de_arquivos=[PDF_SAIDA, PDF_POR_PRECO_SAIDA]
     )
 
 
