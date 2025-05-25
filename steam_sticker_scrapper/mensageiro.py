@@ -3,9 +3,11 @@ from os import getenv
 import smtplib
 from email.message import EmailMessage
 
-def enviar_email_com_anexo(destinatario, assunto, corpo, arquivo_caminho):
+def enviar_email_com_anexos(destinatario, assunto, corpo, lista_de_arquivos):
     EMAIL_REMETENTE = getenv("EMAIL_USER")
     SENHA_REMETENTE = getenv("EMAIL_PASSWORD")
+    EMAIL_HOST = getenv("EMAIL_HOST")
+    EMAIL_PORT = int(getenv("EMAIL_PORT"))
 
     msg = EmailMessage()
     msg['Subject'] = assunto
@@ -13,11 +15,18 @@ def enviar_email_com_anexo(destinatario, assunto, corpo, arquivo_caminho):
     msg['To'] = destinatario
     msg.set_content(corpo)
 
-    with open(arquivo_caminho, 'rb') as f:
-        dados_pdf = f.read()
-    msg.add_attachment(dados_pdf, maintype='application', subtype='pdf', filename=os.path.basename(arquivo_caminho))
+    for arquivo_caminho in lista_de_arquivos:
+        try:
+            with open(arquivo_caminho, 'rb') as f:
+                dados = f.read()
+                nome_arquivo = os.path.basename(arquivo_caminho)
+                msg.add_attachment(dados, maintype='application', subtype='pdf', filename=nome_arquivo)
+        except FileNotFoundError:
+            print(f"Arquivo não encontrado: {arquivo_caminho}")
+        except Exception as e:
+            print(f"Erro ao anexar o arquivo '{arquivo_caminho}': {e}")
 
-    with smtplib.SMTP(getenv("EMAIL_HOST"), int(getenv("EMAIL_PORT"))) as smtp:
+    with smtplib.SMTP(EMAIL_HOST, EMAIL_PORT) as smtp:
         smtp.ehlo()
         smtp.starttls()
         smtp.login(EMAIL_REMETENTE, SENHA_REMETENTE)
