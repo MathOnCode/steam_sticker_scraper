@@ -60,6 +60,7 @@ STICKERS = [
     "Sticker | Goofy (Holo) | Paris 2023",
     "Sticker | Grim (Glitter) | Copenhagen 2024",
     "Sticker | hallzerk (Glitter) | Copenhagen 2024",
+    "Sticker | headtr1ck (Holo) | Paris 2023",
     "Sticker | headtr1ck (Gold) | Paris 2023",
     "Sticker | Heroic (Glitter) | Copenhagen 2024",
     "Sticker | huNter- (Glitter) | Copenhagen 2024",
