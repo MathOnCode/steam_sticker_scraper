@@ -1,10 +1,6 @@
 {
   "Sticker | 910 (Glitter) | Copenhagen 2024": [
     {
-      "data": "2025-07-06",
-      "preco": 0.25
-    },
-    {
       "data": "2025-07-07",
       "preco": 0.24
     },
@@ -123,13 +119,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.3
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.3
     }
   ],
   "Sticker | Aleksib (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.14
-    },
     {
       "data": "2025-07-07",
       "preco": 0.15
@@ -249,6 +245,10 @@
     {
       "data": "2025-08-05",
       "preco": 0.23
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.23
     }
   ],
   "Sticker | ANNIHILATION (Glitter) | Paris 2023": [
@@ -274,10 +274,6 @@
     }
   ],
   "Sticker | apEX (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.2
-    },
     {
       "data": "2025-07-07",
       "preco": 0.3
@@ -397,6 +393,10 @@
     {
       "data": "2025-08-05",
       "preco": 0.29
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.3
     }
   ],
   "Sticker | arT | Copenhagen 2024": [
@@ -442,10 +442,6 @@
     }
   ],
   "Sticker | arT (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.36
-    },
     {
       "data": "2025-07-07",
       "preco": 0.29
@@ -565,13 +561,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.42
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.42
     }
   ],
   "Sticker | bLitz (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.09
-    },
     {
       "data": "2025-07-07",
       "preco": 0.08
@@ -691,13 +687,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.08
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.09
     }
   ],
   "Sticker | Brollan (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.21
-    },
     {
       "data": "2025-07-07",
       "preco": 0.21
@@ -817,13 +813,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.27
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.27
     }
   ],
   "Sticker | coldzera (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.31
-    },
     {
       "data": "2025-07-07",
       "preco": 0.34
@@ -943,13 +939,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.29
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.37
     }
   ],
   "Sticker | coldzera (Glitter) | Rio 2022": [
-    {
-      "data": "2025-07-06",
-      "preco": 1.38
-    },
     {
       "data": "2025-07-07",
       "preco": 1.26
@@ -1069,13 +1065,13 @@
     {
       "data": "2025-08-05",
       "preco": 1.84
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 1.84
     }
   ],
   "Sticker | coldzera (Holo) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 3.59
-    },
     {
       "data": "2025-07-07",
       "preco": 3.45
@@ -1195,13 +1191,13 @@
     {
       "data": "2025-08-05",
       "preco": 3.59
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 3.59
     }
   ],
   "Sticker | Complexity Gaming (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 1.19
-    },
     {
       "data": "2025-07-07",
       "preco": 1.2
@@ -1321,13 +1317,13 @@
     {
       "data": "2025-08-05",
       "preco": 1.68
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 1.57
     }
   ],
   "Sticker | dav1d (Glitter) | Antwerp 2022": [
-    {
-      "data": "2025-07-06",
-      "preco": 1.26
-    },
     {
       "data": "2025-07-07",
       "preco": 1.26
@@ -1447,13 +1443,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.87
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 1.07
     }
   ],
   "Sticker | decenty (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.32
-    },
     {
       "data": "2025-07-07",
       "preco": 0.37
@@ -1573,13 +1569,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.6
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.62
     }
   ],
   "Sticker | decenty (Gold) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 6.84
-    },
     {
       "data": "2025-07-07",
       "preco": 6.84
@@ -1699,13 +1695,13 @@
     {
       "data": "2025-08-05",
       "preco": 8.86
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 8.88
     }
   ],
   "Sticker | decenty (Holo) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 1.7
-    },
     {
       "data": "2025-07-07",
       "preco": 1.66
@@ -1825,6 +1821,10 @@
     {
       "data": "2025-08-05",
       "preco": 3.35
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 3.34
     }
   ],
   "Sticker | device | Stockholm 2020": [
@@ -1834,10 +1834,6 @@
     }
   ],
   "Sticker | degster (Glitter) | Antwerp 2022": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.49
-    },
     {
       "data": "2025-07-07",
       "preco": 0.43
@@ -1957,13 +1953,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.53
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.47
     }
   ],
   "Sticker | degster (Glitter) | Shanghai 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.07
-    },
     {
       "data": "2025-07-07",
       "preco": 0.08
@@ -2083,13 +2079,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.16
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.15
     }
   ],
   "Sticker | donk | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 1.22
-    },
     {
       "data": "2025-07-07",
       "preco": 1.19
@@ -2209,13 +2205,13 @@
     {
       "data": "2025-08-05",
       "preco": 1.57
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 1.75
     }
   ],
   "Sticker | donk (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 10.88
-    },
     {
       "data": "2025-07-07",
       "preco": 10.99
@@ -2335,13 +2331,13 @@
     {
       "data": "2025-08-05",
       "preco": 17.51
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 17.76
     }
   ],
   "Sticker | donk (Glitter) | Shanghai 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 3.54
-    },
     {
       "data": "2025-07-07",
       "preco": 3.61
@@ -2461,13 +2457,13 @@
     {
       "data": "2025-08-05",
       "preco": 4.14
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 4.63
     }
   ],
   "Sticker | dumau (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.2
-    },
     {
       "data": "2025-07-07",
       "preco": 0.14
@@ -2587,13 +2583,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.15
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.16
     }
   ],
   "Sticker | dumau (Glitter) | Rio 2022": [
-    {
-      "data": "2025-07-06",
-      "preco": 1.07
-    },
     {
       "data": "2025-07-07",
       "preco": 1.07
@@ -2713,13 +2709,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.75
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.77
     }
   ],
   "Sticker | EliGE (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.17
-    },
     {
       "data": "2025-07-07",
       "preco": 0.15
@@ -2839,13 +2835,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.19
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.23
     }
   ],
   "Sticker | ENCE (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.2
-    },
     {
       "data": "2025-07-07",
       "preco": 0.25
@@ -2965,13 +2961,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.36
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.41
     }
   ],
   "Sticker | FalleN | Antwerp 2022": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.66
-    },
     {
       "data": "2025-07-07",
       "preco": 0.6
@@ -3091,13 +3087,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.66
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.65
     }
   ],
   "Sticker | FalleN | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.58
-    },
     {
       "data": "2025-07-07",
       "preco": 0.55
@@ -3217,13 +3213,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.93
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.96
     }
   ],
   "Sticker | FalleN | Shanghai 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.55
-    },
     {
       "data": "2025-07-07",
       "preco": 0.72
@@ -3343,13 +3339,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.88
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.93
     }
   ],
   "Sticker | FalleN (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 2.7
-    },
     {
       "data": "2025-07-07",
       "preco": 2.73
@@ -3469,13 +3465,13 @@
     {
       "data": "2025-08-05",
       "preco": 4.76
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 3.73
     }
   ],
   "Sticker | FL1T (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.12
-    },
     {
       "data": "2025-07-07",
       "preco": 0.12
@@ -3595,13 +3591,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.2
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.15
     }
   ],
   "Sticker | FL1T (Glitter) | Rio 2022": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.7
-    },
     {
       "data": "2025-07-07",
       "preco": 0.95
@@ -3721,13 +3717,13 @@
     {
       "data": "2025-08-05",
       "preco": 1.09
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 1.09
     }
   ],
   "Sticker | FlameZ (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.12
-    },
     {
       "data": "2025-07-07",
       "preco": 0.12
@@ -3847,13 +3843,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.13
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.13
     }
   ],
   "Sticker | FlameZ (Glitter) | Rio 2022": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.81
-    },
     {
       "data": "2025-07-07",
       "preco": 0.65
@@ -3973,13 +3969,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.73
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.78
     }
   ],
   "Sticker | forZe eSports (Glitter) | Antwerp 2022": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.18
-    },
     {
       "data": "2025-07-07",
       "preco": 0.19
@@ -4099,13 +4095,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.27
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.24
     }
   ],
   "Sticker | frozen (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.64
-    },
     {
       "data": "2025-07-07",
       "preco": 0.69
@@ -4225,13 +4221,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.52
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.5
     }
   ],
   "Sticker | FURIA (Glitter) | Antwerp 2022": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.77
-    },
     {
       "data": "2025-07-07",
       "preco": 0.62
@@ -4351,13 +4347,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.95
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 1.15
     }
   ],
   "Sticker | FURIA (Glitter) | Rio 2022": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.7
-    },
     {
       "data": "2025-07-07",
       "preco": 0.55
@@ -4477,13 +4473,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.71
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.7
     }
   ],
   "Sticker | gla1ve (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.24
-    },
     {
       "data": "2025-07-07",
       "preco": 0.23
@@ -4603,13 +4599,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.23
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.21
     }
   ],
   "Sticker | Goofy | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.09
-    },
     {
       "data": "2025-07-07",
       "preco": 0.09
@@ -4729,13 +4725,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.09
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.08
     }
   ],
   "Sticker | Goofy (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.26
-    },
     {
       "data": "2025-07-07",
       "preco": 0.31
@@ -4855,13 +4851,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.38
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.38
     }
   ],
   "Sticker | Grim (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.14
-    },
     {
       "data": "2025-07-07",
       "preco": 0.14
@@ -4981,13 +4977,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.17
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.15
     }
   ],
   "Sticker | hallzerk (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.12
-    },
     {
       "data": "2025-07-07",
       "preco": 0.12
@@ -5107,13 +5103,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.14
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.15
     }
   ],
   "Sticker | Heroic (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.38
-    },
     {
       "data": "2025-07-07",
       "preco": 0.62
@@ -5233,13 +5229,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.52
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.5
     }
   ],
   "Sticker | huNter- (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.31
-    },
     {
       "data": "2025-07-07",
       "preco": 0.4
@@ -5359,13 +5355,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.41
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.36
     }
   ],
   "Sticker | huNter- (Glitter) | Paris 2023": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.1
-    },
     {
       "data": "2025-07-07",
       "preco": 0.1
@@ -5485,13 +5481,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.06
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.07
     }
   ],
   "Sticker | ICY (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.13
-    },
     {
       "data": "2025-07-07",
       "preco": 0.13
@@ -5611,13 +5607,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.2
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.19
     }
   ],
   "Sticker | insani (Glitter) | Shanghai 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.17
-    },
     {
       "data": "2025-07-07",
       "preco": 0.16
@@ -5737,13 +5733,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.23
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.21
     }
   ],
   "Sticker | Jimpphat (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.24
-    },
     {
       "data": "2025-07-07",
       "preco": 0.24
@@ -5863,13 +5859,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.4
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.39
     }
   ],
   "Sticker | Jimpphat (Holo) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 3.22
-    },
     {
       "data": "2025-07-07",
       "preco": 3.22
@@ -5989,13 +5985,13 @@
     {
       "data": "2025-08-05",
       "preco": 4.78
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 4.78
     }
   ],
   "Sticker | jambo (Glitter) | Shanghai 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.11
-    },
     {
       "data": "2025-07-07",
       "preco": 0.11
@@ -6115,13 +6111,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.16
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.15
     }
   ],
   "Sticker | karrigan (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.81
-    },
     {
       "data": "2025-07-07",
       "preco": 0.93
@@ -6241,13 +6237,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.95
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.88
     }
   ],
   "Sticker | KSCERATO (Glitter) | Antwerp 2022": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.36
-    },
     {
       "data": "2025-07-07",
       "preco": 0.38
@@ -6367,13 +6363,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.36
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.36
     }
   ],
   "Sticker | KSCERATO (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.37
-    },
     {
       "data": "2025-07-07",
       "preco": 0.36
@@ -6493,13 +6489,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.23
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.31
     }
   ],
   "Sticker | KSCERATO (Glitter) | Paris 2023": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.16
-    },
     {
       "data": "2025-07-07",
       "preco": 0.14
@@ -6619,13 +6615,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.15
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.15
     }
   ],
   "Sticker | KSCERATO (Glitter) | Rio 2022": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.65
-    },
     {
       "data": "2025-07-07",
       "preco": 0.65
@@ -6745,13 +6741,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.59
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.58
     }
   ],
   "Sticker | Legacy (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.43
-    },
     {
       "data": "2025-07-07",
       "preco": 0.42
@@ -6871,13 +6867,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.74
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.73
     }
   ],
   "Sticker | latto (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.1
-    },
     {
       "data": "2025-07-07",
       "preco": 0.1
@@ -6997,13 +6993,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.16
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.17
     }
   ],
   "Sticker | magixx (Glitter) | Antwerp 2022": [
-    {
-      "data": "2025-07-06",
-      "preco": 1.3
-    },
     {
       "data": "2025-07-07",
       "preco": 1.29
@@ -7123,13 +7119,13 @@
     {
       "data": "2025-08-05",
       "preco": 1.51
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 1.55
     }
   ],
   "Sticker | magixx (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.7
-    },
     {
       "data": "2025-07-07",
       "preco": 1.05
@@ -7249,13 +7245,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.95
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 1.08
     }
   ],
   "Sticker | m0NESY | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.17
-    },
     {
       "data": "2025-07-07",
       "preco": 0.17
@@ -7375,13 +7371,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.25
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.25
     }
   ],
   "Sticker | m0NESY | Paris 2023": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.17
-    },
     {
       "data": "2025-07-07",
       "preco": 0.17
@@ -7501,13 +7497,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.16
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.16
     }
   ],
   "Sticker | m0NESY (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 4.83
-    },
     {
       "data": "2025-07-07",
       "preco": 4.38
@@ -7627,13 +7623,13 @@
     {
       "data": "2025-08-05",
       "preco": 5.52
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 6.22
     }
   ],
   "Sticker | m0NESY (Holo) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 39.48
-    },
     {
       "data": "2025-07-07",
       "preco": 39.48
@@ -7753,13 +7749,13 @@
     {
       "data": "2025-08-05",
       "preco": 41.36
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 41.28
     }
   ],
   "Sticker | mzinho (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.09
-    },
     {
       "data": "2025-07-07",
       "preco": 0.09
@@ -7879,13 +7875,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.08
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.08
     }
   ],
   "Sticker | nexa (Glitter) | Rio 2022": [
-    {
-      "data": "2025-07-06",
-      "preco": 2.23
-    },
     {
       "data": "2025-07-07",
       "preco": 2.2
@@ -8005,13 +8001,13 @@
     {
       "data": "2025-08-05",
       "preco": 1.68
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 1.53
     }
   ],
   "Sticker | NiKo | Antwerp 2022": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.64
-    },
     {
       "data": "2025-07-07",
       "preco": 0.53
@@ -8131,13 +8127,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.61
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.61
     }
   ],
   "Sticker | NiKo | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.18
-    },
     {
       "data": "2025-07-07",
       "preco": 0.17
@@ -8257,13 +8253,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.19
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.19
     }
   ],
   "Sticker | Natus Vincere (Holo) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 22.0
-    },
     {
       "data": "2025-07-07",
       "preco": 20.5
@@ -8383,13 +8379,13 @@
     {
       "data": "2025-08-05",
       "preco": 39.3
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 37.9
     }
   ],
   "Sticker | NQZ (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.16
-    },
     {
       "data": "2025-07-07",
       "preco": 0.15
@@ -8509,13 +8505,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.29
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.28
     }
   ],
   "Sticker | NQZ (Glitter) | Rio 2022": [
-    {
-      "data": "2025-07-06",
-      "preco": 2.08
-    },
     {
       "data": "2025-07-07",
       "preco": 2.07
@@ -8635,13 +8631,13 @@
     {
       "data": "2025-08-05",
       "preco": 4.43
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 4.42
     }
   ],
   "Sticker | NQZ (Gold) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 6.84
-    },
     {
       "data": "2025-07-07",
       "preco": 6.8
@@ -8761,13 +8757,13 @@
     {
       "data": "2025-08-05",
       "preco": 9.63
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 10.52
     }
   ],
   "Sticker | noway (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.49
-    },
     {
       "data": "2025-07-07",
       "preco": 0.49
@@ -8887,13 +8883,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.77
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.86
     }
   ],
   "Sticker | noway (Holo) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 1.89
-    },
     {
       "data": "2025-07-07",
       "preco": 1.95
@@ -9013,13 +9009,13 @@
     {
       "data": "2025-08-05",
       "preco": 3.1
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 3.13
     }
   ],
   "Sticker | n0rb3r7 (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.15
-    },
     {
       "data": "2025-07-07",
       "preco": 0.15
@@ -9139,13 +9135,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.18
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.18
     }
   ],
   "Sticker | Outsiders (Glitter) | Rio 2022": [
-    {
-      "data": "2025-07-06",
-      "preco": 3.04
-    },
     {
       "data": "2025-07-07",
       "preco": 1.45
@@ -9265,13 +9261,13 @@
     {
       "data": "2025-08-05",
       "preco": 3.86
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 2.71
     }
   ],
   "Sticker | Outsiders (Holo) | Rio 2022": [
-    {
-      "data": "2025-07-06",
-      "preco": 7.63
-    },
     {
       "data": "2025-07-07",
       "preco": 7.56
@@ -9391,13 +9387,13 @@
     {
       "data": "2025-08-05",
       "preco": 14.46
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 13.42
     }
   ],
   "Sticker | paiN Gaming (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.51
-    },
     {
       "data": "2025-07-07",
       "preco": 0.47
@@ -9517,13 +9513,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.61
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.65
     }
   ],
   "Sticker | paiN Gaming (Glitter) | Paris 2023": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.23
-    },
     {
       "data": "2025-07-07",
       "preco": 0.21
@@ -9643,13 +9639,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.2
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.23
     }
   ],
   "Sticker | Renegades (Glitter) | Antwerp 2022": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.28
-    },
     {
       "data": "2025-07-07",
       "preco": 0.25
@@ -9769,13 +9765,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.57
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.48
     }
   ],
   "Sticker | ropz (Glitter) | Paris 2023": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.51
-    },
     {
       "data": "2025-07-07",
       "preco": 0.41
@@ -9895,13 +9891,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.57
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.7
     }
   ],
   "Sticker | salazar (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.1
-    },
     {
       "data": "2025-07-07",
       "preco": 0.1
@@ -10021,13 +10017,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.13
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.15
     }
   ],
   "Sticker | salazar (Holo) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 1.2
-    },
     {
       "data": "2025-07-07",
       "preco": 1.19
@@ -10147,13 +10143,13 @@
     {
       "data": "2025-08-05",
       "preco": 1.86
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 1.77
     }
   ],
   "Sticker | s1mple | Antwerp 2022": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.87
-    },
     {
       "data": "2025-07-07",
       "preco": 0.83
@@ -10273,13 +10269,13 @@
     {
       "data": "2025-08-05",
       "preco": 1.26
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 1.26
     }
   ],
   "Sticker | s1mple | Paris 2023": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.62
-    },
     {
       "data": "2025-07-07",
       "preco": 0.74
@@ -10399,6 +10395,10 @@
     {
       "data": "2025-08-05",
       "preco": 0.73
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.73
     }
   ],
   "Sticker | s1mple | Stockholm 2020": [
@@ -10408,10 +10408,6 @@
     }
   ],
   "Sticker | s1mple (Glitter) | Paris 2023": [
-    {
-      "data": "2025-07-06",
-      "preco": 4.18
-    },
     {
       "data": "2025-07-07",
       "preco": 4.04
@@ -10531,6 +10527,10 @@
     {
       "data": "2025-08-05",
       "preco": 4.07
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 4.08
     }
   ],
   "Sticker | s1mple (Holo) | Stockholm 2020": [
@@ -10540,10 +10540,6 @@
     }
   ],
   "Sticker | sh1ro (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.47
-    },
     {
       "data": "2025-07-07",
       "preco": 0.47
@@ -10663,6 +10659,10 @@
     {
       "data": "2025-08-05",
       "preco": 0.51
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.52
     }
   ],
   "Sticker | sh1ro (Glitter) | Shanghai 2024": [
@@ -10708,10 +10708,6 @@
     }
   ],
   "Sticker | sh1ro (Holo) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 4.9
-    },
     {
       "data": "2025-07-07",
       "preco": 4.15
@@ -10831,13 +10827,13 @@
     {
       "data": "2025-08-05",
       "preco": 5.4
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 6.18
     }
   ],
   "Sticker | skullz (Glitter) | Shanghai 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.46
-    },
     {
       "data": "2025-07-07",
       "preco": 0.43
@@ -10957,13 +10953,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.7
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.65
     }
   ],
   "Sticker | skullz (Holo) | Paris 2023": [
-    {
-      "data": "2025-07-06",
-      "preco": 1.07
-    },
     {
       "data": "2025-07-07",
       "preco": 1.04
@@ -11083,13 +11079,13 @@
     {
       "data": "2025-08-05",
       "preco": 1.49
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 1.49
     }
   ],
   "Sticker | Senzu (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.13
-    },
     {
       "data": "2025-07-07",
       "preco": 0.13
@@ -11209,6 +11205,10 @@
     {
       "data": "2025-08-05",
       "preco": 0.18
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.13
     }
   ],
   "Sticker | Senzu | Shanghai 2024": [
@@ -11234,10 +11234,6 @@
     }
   ],
   "Sticker | snow | Shanghai 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.1
-    },
     {
       "data": "2025-07-07",
       "preco": 0.1
@@ -11357,13 +11353,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.13
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.13
     }
   ],
   "Sticker | Starry (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.49
-    },
     {
       "data": "2025-07-07",
       "preco": 0.38
@@ -11483,14 +11479,14 @@
     {
       "data": "2025-08-05",
       "preco": 0.7
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.7
     }
   ],
   "Sticker | Techno4K (Glitter) | Copenhagen 2024": [
     {
-      "data": "2025-07-06",
-      "preco": 0.1
-    },
-    {
       "data": "2025-07-07",
       "preco": 0.09
     },
@@ -11609,14 +11605,14 @@
     {
       "data": "2025-08-05",
       "preco": 0.1
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.09
     }
   ],
   "Sticker | Techno4K (Glitter) | Paris 2023": [
     {
-      "data": "2025-07-06",
-      "preco": 0.06
-    },
-    {
       "data": "2025-07-07",
       "preco": 0.08
     },
@@ -11735,13 +11731,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.08
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.08
     }
   ],
   "Sticker | Techno4K (Holo) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 1.77
-    },
     {
       "data": "2025-07-07",
       "preco": 1.76
@@ -11861,13 +11857,13 @@
     {
       "data": "2025-08-05",
       "preco": 1.9
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 1.93
     }
   ],
   "Sticker | TeSeS (Glitter) | Rio 2022": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.35
-    },
     {
       "data": "2025-07-07",
       "preco": 0.36
@@ -11987,13 +11983,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.32
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.36
     }
   ],
   "Sticker | The MongolZ (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.29
-    },
     {
       "data": "2025-07-07",
       "preco": 0.27
@@ -12113,13 +12109,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.39
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.37
     }
   ],
   "Sticker | The MongolZ (Holo) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 3.22
-    },
     {
       "data": "2025-07-07",
       "preco": 2.94
@@ -12239,13 +12235,13 @@
     {
       "data": "2025-08-05",
       "preco": 8.29
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 6.95
     }
   ],
   "Sticker | torzsi (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.37
-    },
     {
       "data": "2025-07-07",
       "preco": 0.42
@@ -12365,13 +12361,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.5
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.51
     }
   ],
   "Sticker | TRAVIS (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.15
-    },
     {
       "data": "2025-07-07",
       "preco": 0.15
@@ -12491,13 +12487,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.25
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.23
     }
   ],
   "Sticker | TRY | Rio 2022": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.7
-    },
     {
       "data": "2025-07-07",
       "preco": 0.6
@@ -12617,13 +12613,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.65
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.64
     }
   ],
   "Sticker | TRY (Glitter) | Rio 2022": [
-    {
-      "data": "2025-07-06",
-      "preco": 1.38
-    },
     {
       "data": "2025-07-07",
       "preco": 1.31
@@ -12743,13 +12739,13 @@
     {
       "data": "2025-08-05",
       "preco": 1.39
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 1.38
     }
   ],
   "Sticker | vexite (Glitter) | Shanghai 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.28
-    },
     {
       "data": "2025-07-07",
       "preco": 0.26
@@ -12869,13 +12865,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.35
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.35
     }
   ],
   "Sticker | Virtus.pro (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 1.15
-    },
     {
       "data": "2025-07-07",
       "preco": 1.16
@@ -12995,13 +12991,13 @@
     {
       "data": "2025-08-05",
       "preco": 1.41
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 1.24
     }
   ],
   "Sticker | Wicadia (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.55
-    },
     {
       "data": "2025-07-07",
       "preco": 0.55
@@ -13121,13 +13117,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.48
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.74
     }
   ],
   "Sticker | westmelon (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.46
-    },
     {
       "data": "2025-07-07",
       "preco": 0.43
@@ -13247,13 +13243,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.43
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.41
     }
   ],
   "Sticker | w0nderful (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.18
-    },
     {
       "data": "2025-07-07",
       "preco": 0.18
@@ -13373,13 +13369,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.25
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.15
     }
   ],
   "Sticker | yuurih (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.38
-    },
     {
       "data": "2025-07-07",
       "preco": 0.25
@@ -13499,13 +13495,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.37
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.36
     }
   ],
   "Sticker | YEKINDAR (Glitter) | Antwerp 2022": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.93
-    },
     {
       "data": "2025-07-07",
       "preco": 0.93
@@ -13625,13 +13621,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.73
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.73
     }
   ],
   "Sticker | ZywOo | Rio 2022": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.99
-    },
     {
       "data": "2025-07-07",
       "preco": 0.74
@@ -13751,13 +13747,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.95
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 1.0
     }
   ],
   "Sticker | ZywOo (Glitter) | Antwerp 2022": [
-    {
-      "data": "2025-07-06",
-      "preco": 1.0
-    },
     {
       "data": "2025-07-07",
       "preco": 0.94
@@ -13877,13 +13873,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.95
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.99
     }
   ],
   "Sticker | ZywOo (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 1.44
-    },
     {
       "data": "2025-07-07",
       "preco": 1.44
@@ -14003,13 +13999,13 @@
     {
       "data": "2025-08-05",
       "preco": 1.54
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 1.62
     }
   ],
   "Sticker | ZywOo (Glitter) | Paris 2023": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.52
-    },
     {
       "data": "2025-07-07",
       "preco": 0.52
@@ -14129,13 +14125,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.51
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.6
     }
   ],
   "Sticker | ZywOo (Glitter) | Rio 2022": [
-    {
-      "data": "2025-07-06",
-      "preco": 4.4
-    },
     {
       "data": "2025-07-07",
       "preco": 4.39
@@ -14255,13 +14251,13 @@
     {
       "data": "2025-08-05",
       "preco": 5.15
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 5.19
     }
   ],
   "Sticker | ZywOo (Holo) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 11.81
-    },
     {
       "data": "2025-07-07",
       "preco": 11.81
@@ -14381,13 +14377,13 @@
     {
       "data": "2025-08-05",
       "preco": 17.4
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 17.4
     }
   ],
   "Sticker | zont1x (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.31
-    },
     {
       "data": "2025-07-07",
       "preco": 0.31
@@ -14507,6 +14503,10 @@
     {
       "data": "2025-08-05",
       "preco": 0.55
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.47
     }
   ],
   "Sticker | device | Stockholm 2021": [
@@ -14528,10 +14528,6 @@
     }
   ],
   "Sticker | s1mple | Stockholm 2021": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.43
-    },
     {
       "data": "2025-07-07",
       "preco": 0.46
@@ -14651,13 +14647,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.49
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.48
     }
   ],
   "Sticker | s1mple (Holo) | Stockholm 2021": [
-    {
-      "data": "2025-07-06",
-      "preco": 11.16
-    },
     {
       "data": "2025-07-07",
       "preco": 11.41
@@ -14777,13 +14773,13 @@
     {
       "data": "2025-08-05",
       "preco": 14.56
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 14.62
     }
   ],
   "Sticker | drop (Glitter) | Rio 2022": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.47
-    },
     {
       "data": "2025-07-07",
       "preco": 0.43
@@ -14903,13 +14899,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.43
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.43
     }
   ],
   "Sticker | Goofy (Holo) | Paris 2023": [
-    {
-      "data": "2025-07-06",
-      "preco": 2.73
-    },
     {
       "data": "2025-07-07",
       "preco": 2.73
@@ -15029,13 +15025,13 @@
     {
       "data": "2025-08-05",
       "preco": 4.79
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 4.9
     }
   ],
   "Sticker | Kylar (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.23
-    },
     {
       "data": "2025-07-07",
       "preco": 0.23
@@ -15155,13 +15151,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.3
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.32
     }
   ],
   "Sticker | mzinho (Holo) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 1.55
-    },
     {
       "data": "2025-07-07",
       "preco": 1.44
@@ -15281,13 +15277,13 @@
     {
       "data": "2025-08-05",
       "preco": 2.07
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 1.95
     }
   ],
   "Sticker | ropz (Glitter) | Rio 2022": [
-    {
-      "data": "2025-07-06",
-      "preco": 1.75
-    },
     {
       "data": "2025-07-07",
       "preco": 1.75
@@ -15407,13 +15403,13 @@
     {
       "data": "2025-08-05",
       "preco": 2.12
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 2.13
     }
   ],
   "Sticker | Senzu (Holo) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 2.81
-    },
     {
       "data": "2025-07-07",
       "preco": 2.72
@@ -15533,13 +15529,13 @@
     {
       "data": "2025-08-05",
       "preco": 3.25
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 3.15
     }
   ],
   "Sticker | Spinx (Holo) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 1.31
-    },
     {
       "data": "2025-07-07",
       "preco": 1.4
@@ -15659,13 +15655,13 @@
     {
       "data": "2025-08-05",
       "preco": 1.54
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 1.7
     }
   ],
   "Sticker | torzsi (Holo) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 3.88
-    },
     {
       "data": "2025-07-07",
       "preco": 3.88
@@ -15785,13 +15781,13 @@
     {
       "data": "2025-08-05",
       "preco": 4.83
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 4.8
     }
   ],
   "Sticker | torzsi (Glitter) | Rio 2022": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.96
-    },
     {
       "data": "2025-07-07",
       "preco": 0.96
@@ -15911,13 +15907,13 @@
     {
       "data": "2025-08-05",
       "preco": 1.53
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 1.53
     }
   ],
   "Sticker | MOUZ (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 1.64
-    },
     {
       "data": "2025-07-07",
       "preco": 1.64
@@ -16037,13 +16033,13 @@
     {
       "data": "2025-08-05",
       "preco": 3.03
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 2.66
     }
   ],
   "Sticker | Vitality (Glitter) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 0.7
-    },
     {
       "data": "2025-07-07",
       "preco": 0.76
@@ -16163,13 +16159,13 @@
     {
       "data": "2025-08-05",
       "preco": 0.95
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 0.95
     }
   ],
   "Desert Eagle | Tilted (Minimal Wear)": [
-    {
-      "data": "2025-07-06",
-      "preco": 4.51
-    },
     {
       "data": "2025-07-07",
       "preco": 4.6
@@ -16289,13 +16285,13 @@
     {
       "data": "2025-08-05",
       "preco": 5.55
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 5.13
     }
   ],
   "Charm | Lil' Crass": [
-    {
-      "data": "2025-07-06",
-      "preco": 2.96
-    },
     {
       "data": "2025-07-07",
       "preco": 2.78
@@ -16415,13 +16411,13 @@
     {
       "data": "2025-08-05",
       "preco": 2.79
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 2.55
     }
   ],
   "Charm | Big Kev": [
-    {
-      "data": "2025-07-06",
-      "preco": 3.14
-    },
     {
       "data": "2025-07-07",
       "preco": 3.04
@@ -16541,13 +16537,13 @@
     {
       "data": "2025-08-05",
       "preco": 3.22
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 2.92
     }
   ],
   "Charm | Chicken Lil'": [
-    {
-      "data": "2025-07-01",
-      "preco": 14.12
-    },
     {
       "data": "2025-07-03",
       "preco": 13.69
@@ -16667,13 +16663,13 @@
     {
       "data": "2025-08-05",
       "preco": 13.02
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 12.51
     }
   ],
   "Charm | Pinch O' Salt": [
-    {
-      "data": "2025-07-05",
-      "preco": 3.77
-    },
     {
       "data": "2025-07-06",
       "preco": 3.64
@@ -16793,13 +16789,13 @@
     {
       "data": "2025-08-05",
       "preco": 3.68
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 3.35
     }
   ],
   "Charm | Hot Sauce": [
-    {
-      "data": "2025-07-06",
-      "preco": 3.54
-    },
     {
       "data": "2025-07-07",
       "preco": 3.27
@@ -16919,13 +16915,13 @@
     {
       "data": "2025-08-05",
       "preco": 3.54
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 3.16
     }
   ],
   "Charm | Baby's AK": [
-    {
-      "data": "2025-07-05",
-      "preco": 3.7
-    },
     {
       "data": "2025-07-06",
       "preco": 3.71
@@ -17045,13 +17041,13 @@
     {
       "data": "2025-08-05",
       "preco": 3.48
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 3.22
     }
   ],
   "Charm | Pocket AWP": [
-    {
-      "data": "2025-07-05",
-      "preco": 2.66
-    },
     {
       "data": "2025-07-06",
       "preco": 2.59
@@ -17171,13 +17167,13 @@
     {
       "data": "2025-08-05",
       "preco": 2.38
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 2.19
     }
   ],
   "Charm | Lil' Cap Gun": [
-    {
-      "data": "2025-07-04",
-      "preco": 1.51
-    },
     {
       "data": "2025-07-06",
       "preco": 1.45
@@ -17297,13 +17293,13 @@
     {
       "data": "2025-08-05",
       "preco": 1.2
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 1.09
     }
   ],
   "Shadow Case": [
-    {
-      "data": "2025-07-06",
-      "preco": 11.67
-    },
     {
       "data": "2025-07-07",
       "preco": 11.97
@@ -17423,13 +17419,13 @@
     {
       "data": "2025-08-05",
       "preco": 13.35
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 12.79
     }
   ],
   "Gamma Case": [
-    {
-      "data": "2025-07-06",
-      "preco": 30.78
-    },
     {
       "data": "2025-07-07",
       "preco": 30.61
@@ -17549,13 +17545,13 @@
     {
       "data": "2025-08-05",
       "preco": 28.98
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 32.49
     }
   ],
   "Gamma 2 Case": [
-    {
-      "data": "2025-07-06",
-      "preco": 30.26
-    },
     {
       "data": "2025-07-07",
       "preco": 30.21
@@ -17675,13 +17671,13 @@
     {
       "data": "2025-08-05",
       "preco": 29.12
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 28.46
     }
   ],
   "Spectrum 2 Case": [
-    {
-      "data": "2025-07-06",
-      "preco": 27.17
-    },
     {
       "data": "2025-07-07",
       "preco": 28.32
@@ -17801,13 +17797,13 @@
     {
       "data": "2025-08-05",
       "preco": 25.69
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 27.97
     }
   ],
   "AWP | Atheris (Minimal Wear)": [
-    {
-      "data": "2025-07-05",
-      "preco": 47.01
-    },
     {
       "data": "2025-07-06",
       "preco": 45.02
@@ -17927,6 +17923,10 @@
     {
       "data": "2025-08-04",
       "preco": 51.2
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 50.27
     }
   ],
   "AK-47 | Legion of Anubis (Minimal Wear)": [
@@ -18012,10 +18012,6 @@
     }
   ],
   "Sticker | 910 (Holo) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 3.65
-    },
     {
       "data": "2025-07-07",
       "preco": 4.33
@@ -18135,6 +18131,10 @@
     {
       "data": "2025-08-05",
       "preco": 10.18
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 10.43
     }
   ],
   "Charm | That's Bananas": [
@@ -18208,10 +18208,6 @@
     }
   ],
   "Sticker | torzsi (Gold) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 16.81
-    },
     {
       "data": "2025-07-07",
       "preco": 16.34
@@ -18331,13 +18327,13 @@
     {
       "data": "2025-08-05",
       "preco": 16.96
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 16.48
     }
   ],
   "Sticker | dumau (Gold) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 12.11
-    },
     {
       "data": "2025-07-07",
       "preco": 12.11
@@ -18457,13 +18453,13 @@
     {
       "data": "2025-08-05",
       "preco": 13.54
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 13.69
     }
   ],
   "Sticker | headtr1ck (Gold) | Paris 2023": [
-    {
-      "data": "2025-07-06",
-      "preco": 10.29
-    },
     {
       "data": "2025-07-07",
       "preco": 9.69
@@ -18583,13 +18579,13 @@
     {
       "data": "2025-08-05",
       "preco": 7.78
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 7.86
     }
   ],
   "Sticker | Legacy (Holo) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 3.0
-    },
     {
       "data": "2025-07-07",
       "preco": 3.07
@@ -18709,13 +18705,13 @@
     {
       "data": "2025-08-05",
       "preco": 18.48
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 14.77
     }
   ],
   "Sticker | latto (Holo) | Copenhagen 2024": [
-    {
-      "data": "2025-07-06",
-      "preco": 1.55
-    },
     {
       "data": "2025-07-07",
       "preco": 1.54
@@ -18835,13 +18831,13 @@
     {
       "data": "2025-08-05",
       "preco": 2.57
+    },
+    {
+      "data": "2025-08-06",
+      "preco": 2.78
     }
   ],
   "Sticker | headtr1ck (Holo) | Paris 2023": [
-    {
-      "data": "2025-07-06",
-      "preco": 1.05
-    },
     {
       "data": "2025-07-07",
       "preco": 1.31
@@ -18960,6 +18956,10 @@
     },
     {
       "data": "2025-08-05",
+      "preco": 1.58
+    },
+    {
+      "data": "2025-08-06",
       "preco": 1.58
     }
   ]
