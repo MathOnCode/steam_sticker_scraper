@@ -2,13 +2,20 @@ name: Rodar script de preços
 
 on:
   schedule:
-    - cron: '0 12 * * *'  # 09:00 BRT
+    - cron: '0 12 * * 6'  # Todo sábado às 12:00 UTC (09:00 BRT)
   workflow_dispatch:
 
 jobs:
   run-script:
     runs-on: ubuntu-latest
     steps:
+      - name: Checar se é o primeiro sábado do mês
+        run: |
+          if [ "$(date +%d)" -gt 7 ]; then
+            echo "Não é o primeiro sábado do mês, cancelando..."
+            exit 0
+          fi
+
       - uses: actions/checkout@v3
 
       - name: Set up Python
