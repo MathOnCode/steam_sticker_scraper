@@ -18,7 +18,7 @@
   "Sticker | s1mple (Foil) | Krakow 2017": [
     {
       "preço_inicial": "10.50",
-      "preco": "25.75",
+      "preco": "101",
       "porcentagem": "145.24",
       "quantidade": "1"
     }
@@ -26,7 +26,7 @@
   "Sticker | NiKo (Holo) | Atlanta 2017": [
     {
       "preço_inicial": "5.00",
-      "preco": "12.30",
+      "preco": "501",
       "porcentagem": "146.00",
       "quantidade": "3"
     }
@@ -34,7 +34,7 @@
   "Sticker | device (Gold) | Berlin 2019": [
     {
       "preço_inicial": "8.00",
-      "preco": "6.50",
+      "preco": "1001",
       "porcentagem": "-18.75",
       "quantidade": "2"
     }
@@ -65,3 +65,4 @@
   ]
 
 }
+
