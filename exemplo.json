@@ -3,7 +3,7 @@
     {
       "preço_inicial": "3.03",
       "preco": "7.07",
-      "porcentagem": "133.33",
+      "porcentagem": "501",
       "quantidade": "2"
     }
   ],
@@ -11,7 +11,7 @@
     {
       "preço_inicial": "3.03",
       "preco": "5.50",
-      "porcentagem": "81.52",
+      "porcentagem": "1001",
       "quantidade": "3"
     }
   ],
@@ -63,4 +63,5 @@
       "quantidade": "2"
     }
   ]
+
 }
